@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://poplarmedia.github.io/IIIFworkshop/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in poplarmedia/IIIFworkshop project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "hieu-vu-minh-He8-FZl-o10-unsplash"
+                ]
+            },
+            "height": 3648,
+            "width": 5472,
+            "items": [
+                {
+                    "id": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 171,
+                                                "height": 114
+                                            },
+                                            {
+                                                "width": 342,
+                                                "height": 228
+                                            },
+                                            {
+                                                "width": 684,
+                                                "height": 456
+                                            },
+                                            {
+                                                "width": 1368,
+                                                "height": 912
+                                            },
+                                            {
+                                                "width": 2736,
+                                                "height": 1824
+                                            },
+                                            {
+                                                "width": 5472,
+                                                "height": 3648
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 5472,
+                                        "id": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 3648
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://poplarmedia.github.io/IIIFworkshop/images/hieu-vu-minh-He8-FZl-o10-unsplash/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
