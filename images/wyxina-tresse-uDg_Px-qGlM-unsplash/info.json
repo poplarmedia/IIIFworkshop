@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 145,
+    "height" : 218
+  }, {
+    "width" : 290,
+    "height" : 435
+  }, {
+    "width" : 580,
+    "height" : 870
+  }, {
+    "width" : 1160,
+    "height" : 1740
+  }, {
+    "width" : 2320,
+    "height" : 3480
+  }, {
+    "width" : 4640,
+    "height" : 6960
+  } ],
+  "profile" : "level0",
+  "width" : 4640,
+  "id" : "https://poplarmedia.github.io/IIIFworkshop/images/wyxina-tresse-uDg_Px-qGlM-unsplash",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 6960
+}
