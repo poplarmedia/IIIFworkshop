@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 102,
+    "height" : 153
+  }, {
+    "width" : 204,
+    "height" : 306
+  }, {
+    "width" : 408,
+    "height" : 612
+  }, {
+    "width" : 816,
+    "height" : 1224
+  }, {
+    "width" : 1632,
+    "height" : 2448
+  }, {
+    "width" : 3264,
+    "height" : 4896
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3264,
+  "@id" : "https://poplarmedia.github.io/IIIFworkshop/images/ciprian-boiciuc-CXdeJI3bD2U-unsplash",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4896
+}
