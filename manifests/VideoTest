@@ -1,0 +1,51 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://poplarmedia.github.io/IIIFworkshop/manifests/VideoTest",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Last Man on Earth" ]
+  },
+  "summary" : {
+    "en" : [ "A sole survivor in a world of vampires starring Vincent Price. The first of three movies based on this novel, 'I am Legend', by Richard Matheson.\n" ]
+  },
+  "thumbnail" : [ {
+    "id" : "https://archive.org/services/img/lastmanonearth-1964",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 124,
+    "width" : 180
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/fziogg3r7lc-mazb353p/canvas/ffkm4bg9ef8-mazb3isn",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "lastmanonearth-1964" ]
+    },
+    "summary" : {
+      "en" : [ "The Last man on Earth" ]
+    },
+    "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+    "thumbnail" : [ {
+      "id" : "https://archive.org/services/img/lastmanonearth-1964",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 124,
+      "width" : 180
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/fziogg3r7lc-mazb353p/canvas/ffkm4bg9ef8-mazb3isn/annotation-page/2f0rb8vllet-mazb3isn",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/fziogg3r7lc-mazb353p/annotation/y59x477q0c8-mazb3ism",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/fziogg3r7lc-mazb353p/canvas/ffkm4bg9ef8-mazb3isn",
+        "body" : {
+          "id" : "https://archive.org/download/lastmanonearth-1964/lastmanonearth-1964.m4v",
+          "type" : "Video",
+          "format" : "video/mp4"
+        }
+      } ]
+    } ]
+  } ]
+}
