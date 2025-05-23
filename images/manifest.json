@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "La-Grande-vitesse-1969-1024x756"
+                ]
+            },
+            "height": 756,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 32,
+                                                "height": 24
+                                            },
+                                            {
+                                                "width": 64,
+                                                "height": 48
+                                            },
+                                            {
+                                                "width": 128,
+                                                "height": 95
+                                            },
+                                            {
+                                                "width": 256,
+                                                "height": 189
+                                            },
+                                            {
+                                                "width": 512,
+                                                "height": 378
+                                            },
+                                            {
+                                                "width": 1024,
+                                                "height": 756
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1024,
+                                        "@id": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 756,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://poplarmedia.github.io/IIIFworkshop/images/La-Grande-vitesse-1969-1024x756/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://poplarmedia.github.io/IIIFworkshop/images/ciprian-boiciuc-CXdeJI3bD2U-unsplash/canvas/",
             "type": "Canvas",
             "label": {
